@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50%;
+    width: 100%;
+}
+
+.landing-image {
+    width: 100%;
+    max-width: 700px;
+    height: 180%;
+    margin-bottom: 0px;
+    border-radius: 5px;
+
+}
+
+#start-button {
+    background-color: #568eca;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+#start-button:hover {
+    background-color: #0056b3;
+}
+
+.quiz-container {
+    background-color: yellowgreen;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+}
+
+#question {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.option {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #dddddd;
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+#next,#next-content{
+    background-color: #568eca;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#return,#return-content{
+    background-color: #ca5656;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+#next,#next-content:hover {
+    background-color: #0056b3;
+}
+
+#try-again-button{    
+    color: red;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.last-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#question-image {
+    max-block-size: 600px;
+
+}
